@@ -16,7 +16,7 @@ Is this bannable?
 - This is NOT bannable. This program precisely adds shaders/filters to Roblox.
 
 Is this a virus?
-- This is not a virus. This program will be made open-source, you may view the code for any malicious code.
+- This is not a virus.
 
 Will there be more to this program?  (Subject to be changed)
 - I will consider adding more to this program whenever. Additionally, this program will also receive MANUAL updates.
