@@ -6,6 +6,7 @@
 *This program will include:*
 - Modifications with files
 - Requires administrator permissions
+- Installs 3rd-party dependencies
 - Shader Add-ons to Roblox
 
 ## Preview
