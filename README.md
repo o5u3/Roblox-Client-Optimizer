@@ -9,7 +9,7 @@
 - Optimizes Ping
 - Enables FULL Graphics Quality Levels
 - Menu/UI Changes
-- Removal of useless FFlags
+- Disables unnecessary FFlags
 - And more!
 
 ## Where is the download?
