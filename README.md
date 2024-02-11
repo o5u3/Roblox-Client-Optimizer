@@ -5,7 +5,7 @@
 - FPS Uncapper
 - Optimizes Graphics
 - Optimizes Textures
-- Memory Balancer
+- Optimizes Memory
 - Optimizes Ping
 - Enables FULL Graphics Quality Levels
 - Menu/UI Changes
