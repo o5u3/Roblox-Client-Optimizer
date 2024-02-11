@@ -1,5 +1,5 @@
 {
-  "FStringCredit": "Balanced Graphics | THIS IS PLACEHOLDER, NOT FINAL!",
+  "FStringFFlagVersion": "RCO 1.00 | OG Balanced Graphics",
 
   
   "FFlagDebugDisplayFPS": false,
@@ -47,11 +47,8 @@
   "DFFlagBatchAssetApiNoFallbackOnFail": false,
   "FFlagAnimationClipMemCacheEnabled": true,
   "FFlagCommitToGraphicsQualityFix": true,
-  "FFlagEnableInGameMenuV3": true,
-  "FFlagEnableV3MenuABTest3": true,
   "DFFlagQueueDataPingFromSendData": true,
   "FFlagDontCreatePingJob": true,
-  "FStringTopBarBadgeLearnMoreLink": "https://youtube.com/@KiwisASkid/",
   "FFlagFastGPULightCulling3": true,
   "FFlagGpuGeometryManager7": true,
   "FFlagRenderGpuTextureCompressor": true,
