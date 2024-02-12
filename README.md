@@ -13,7 +13,7 @@
 - And more!
 
 ## Where is the download?
-  Latest version of RCO: [Download](https://github.com/o5u3/Roblox-Client-Optimizer/releases).
+  [Download RCO](https://github.com/o5u3/Roblox-Client-Optimizer/releases).
 
 ## Why use RCO?
   1. RCO not only will do the optimization, but the installation for you. Manual installation is time-consuming and RCO does the work for you.
