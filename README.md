@@ -24,7 +24,7 @@
   No, RCO doesn't take much space nor does it run in the background. It simply changes your Roblox client's FFlags.
 
 ## Technical Support
-- Visit the [Discord](https://discord.gg/CZUfHYHtZr) server for support or updates.
+- Visit the [Discord](https://discord.gg/2497nVve7Z) server for support or updates.
 
 ## Support
   This is not required however if you'd like to support us, access the download through [here](https://link-target.net/77867/rco-download). The ads are also skippable with 3 FREE skip credits.
