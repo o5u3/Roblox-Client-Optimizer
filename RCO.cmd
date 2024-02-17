@@ -155,23 +155,30 @@ if exist "%~dp0\Tweaks" (
     if exist "%~dp0\Tweaks\*.json" (
         echo Tweaks folder already made
     ) else (
-        curl -o "%~dp0\Tweaks\Potato.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/Potato.json"
-        curl -o "%~dp0\Tweaks\Balanced.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/Balanced.json"
-        curl -o "%~dp0\Tweaks\DBalanced.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DBalanced.json"
-        curl -o "%~dp0\Tweaks\DSuperSonic.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DSuperSonic.json"
-        curl -o "%~dp0\Tweaks\DSuperSonic.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DUWP.json"
+:: Main RCO
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/Potato.json', 'Tweaks\Potato.json')"
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/Balanced.json', 'Tweaks\Balanced.json')"
+
+:: Deprecated RCO
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DBalanced.json', 'Tweaks\DBalanced.json')"
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DSuperSonic.json', 'Tweaks\DSuperSonic.json')"
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DUWP.json', 'Tweaks\DUWP.json')"
     )
 ) else (
     mkdir "%~dp0\Tweaks"
-    curl -o "%~dp0\Tweaks\Potato.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/Potato.json"
-    curl -o "%~dp0\Tweaks\Balanced.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/Balanced.json"
-    curl -o "%~dp0\Tweaks\DBalanced.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DBalanced.json"
-    curl -o "%~dp0\Tweaks\DSuperSonic.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DSuperSonic.json"
-    curl -o "%~dp0\Tweaks\DSuperSonic.json" "https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DUWP.json"
+:: Main RCO
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/Potato.json', 'Tweaks\Potato.json')"
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/Balanced.json', 'Tweaks\Balanced.json')"
+
+:: Deprecated RCO
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DBalanced.json', 'Tweaks\DBalanced.json')"
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DSuperSonic.json', 'Tweaks\DSuperSonic.json')"
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/o5u3/Roblox-Client-Optimizer/ClientSettings/DUWP.json', 'Tweaks\DUWP.json')"
 )
 goto main
 
 :optimizerblx1
+cls
 echo Starting RCO optimization...
 if exist "%~dp0\Tweaks\Balanced.json" (
     xcopy "%~dp0\Tweaks\Balanced.json" "%rblxfolder%\ClientSettings\ClientAppSettings.json*" /A /Y
@@ -187,6 +194,7 @@ pause
 goto main
 
 :optimizerblx2
+cls
 echo Starting RCO optimization...
 if exist "%~dp0\Tweaks\Potato.json" (
     xcopy "%~dp0\Tweaks\Potato.json" "%rblxfolder%\ClientSettings\ClientAppSettings.json*" /A /Y
@@ -202,6 +210,7 @@ pause
 goto main
 
 :doptimizerblx1
+cls
 echo Starting RCO optimization...
 if exist "%~dp0\Tweaks\DBalanced.json" (
     xcopy "%~dp0\Tweaks\DBalanced.json" "%rblxfolder%\ClientSettings\ClientAppSettings.json*" /A /Y
@@ -217,6 +226,7 @@ pause
 goto main
 
 :doptimizerblx2
+cls
 echo Starting RCO optimization...
 if exist "%~dp0\Tweaks\DSuperSonic.json" (
     xcopy "%~dp0\Tweaks\DSuperSonic.json" "%rblxfolder%\ClientSettings\ClientAppSettings.json*" /A /Y
@@ -232,6 +242,7 @@ pause
 goto main
 
 :doptimizerblx3
+cls
 echo Starting RCO optimization...
 if exist "%~dp0\Tweaks\DUWP.json" (
     xcopy "%~dp0\Tweaks\DUWP.json" "%rblxfolder%\ClientSettings\ClientAppSettings.json*" /A /Y
