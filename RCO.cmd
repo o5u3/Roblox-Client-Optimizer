@@ -1,6 +1,15 @@
 @echo off
-title Roblox Client Optimizer
+title [RCO] Roblox Client Optimizer
 echo Locating Roblox...
+for /d %%v in ("%localappdata%\Bloxstrap\*") do (
+if exist "%%i\ClientSettings" (
+    set rblxfolder=%%v
+    goto installjson
+) else (
+    echo Roblox not found in Bloxstrap.
+)
+)
+
 for /d %%v in ("%localappdata%\Roblox\Versions\*") do (
 if exist "%%v\RobloxPlayerBeta.exe" (
     set rblxfolder=%%v
@@ -59,7 +68,6 @@ echo.^|                                               ^|
 echo.^|                                               ^|
 echo ^| -------------------EXTRAS-------------------- ^|
 echo.^|                                               ^|
-echo ^| ( ! THIS WILL DELETE THE WHOLE RCO FOLDER ! ) ^|
 echo ^|            [uninstall] Uninstall RCO          ^|
 echo.^|                                               ^|
 echo.^|                                               ^|
@@ -85,7 +93,7 @@ if "%ans%" == "page2" (
     goto mainpg2
 )
 if "%ans%" == "uninstall" (
-    goto uninstallrco
+    goto removecs
 )
 if "%ans%" == "0" (
     goto exit
@@ -270,10 +278,3 @@ goto main
 
 :quit
 exit
-
-:uninstallrco
-cls
-if exist "%~dp0\Tweaks" (rmdir "%~dp0\Tweaks" /s /q)
-if exist "%~dp0\Backup" (rmdir "%~dp0\Backup" /s /q)
-if exist "%~dp0\*.txt" (del "%~dp0\*.txt")
-del "%~f0"
