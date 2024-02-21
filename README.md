@@ -12,6 +12,9 @@
 - Disables unnecessary FFlags
 - And more!
 
+## Preview:
+![image](https://imagedelivery.net/a5r9Tc1KZUombyb_AZ4nqA/d21915d4-9a3f-45e5-2a3b-50bb1d683a00/hd)
+
 ## Where is the download?
   [Download RCO](https://github.com/o5u3/Roblox-Client-Optimizer/releases/tag/RCO)
 
