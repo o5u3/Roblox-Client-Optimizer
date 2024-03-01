@@ -1,3 +1,8 @@
+# Announcement
+  Unfortunately FFlags will eventually be patched, and is slowly rolling out to users as of **02/29/24**.
+  
+  Not to worry, as we are working on a work-around for this update. Be up-to-date in the [Discord](https://discord.gg/CZUfHYHtZr) server.
+
 ## Roblox Client Optimizer
   RCO tweaks your Roblox FFlags to optimize your client.
 
