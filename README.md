@@ -1,5 +1,5 @@
 # Announcement
-  Unfortunately FFlags will eventually be patched, and is slowly rolling out to users as of **02/29/24**.
+  Unfortunately FFlags will eventually be patched, as of **02/29/24** RCO is still working.
   
   Not to worry, as we are working on a work-around for this update. Be up-to-date in the [Discord](https://discord.gg/CZUfHYHtZr) server.
 
