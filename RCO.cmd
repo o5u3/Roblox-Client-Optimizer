@@ -5,12 +5,10 @@ echo Locating Roblox...
 if exist "%localappdata%\Bloxstrap\*" (
 for /d %%i in ("%localappdata%\Bloxstrap\*") do (
 if exist "%%i\ClientSettings" (
-    set folder=%%i
-    goto retrievefiles
+    set rblxfolder=%%i
+    goto installjson
 )
 )
-) else (
-    echo Roblox not found in Bloxstrap.
 )
 
 
@@ -18,46 +16,31 @@ if exist "%%i\ClientSettings" (
 if exist "%localappdata%\Roblox\Versions\*" (
 for /d %%i in ("%localappdata%\Roblox\Versions\*") do (
 if exist "%%i\RobloxPlayerBeta.exe" (
-    set folder=%%i
-    goto retrievefiles
+    set rblxfolder=%%i
+    goto installjson
 )
 )
-) else (
-    echo Roblox not found in AppData.
 )
 
 :: Program Files
 if exist "C:\Program Files\Roblox\Versions\*" (
 for /d %%i in ("C:\Program Files\Roblox\Versions\*") do (
 if exist "%%i\RobloxPlayerBeta.exe" (
-    set folder=%%i
-    goto retrievefiles
+    set rblxfolder=%%i
+    goto installjson
 )
 )
-) else (
-    echo Roblox not found in Program Files.
 )
 
 :: Program Files (x86)
 if exist "C:\Program Files (x86)\Roblox\Versions\*" (
 for /d %%i in ("C:\Program Files (x86)\Roblox\Versions\*") do (
 if exist "%%i\RobloxPlayerBeta.exe" (
-    set folder=%%i
-    goto retrievefiles
+    set rblxfolder=%%i
+    goto installjson
 )
 )
-) else (
-    echo Roblox not found in Program Files (x86).
 )
-cls
-echo Roblox was not found installed. Make sure you have Roblox installed before using RCO. (roblox.com/download)
-echo.
-echo If you already have Roblox installed please join the RCO Discord and contact the owner.
-echo.
-echo discord.gg/CZUfHYHtZr
-echo.
-pause
-goto exit
 
 :main
 mode 65, 52
