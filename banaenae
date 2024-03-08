@@ -1,5 +1,6 @@
-Update Logs (03/06/24):
-- Changed Roblox Directory Finder (should fix main issues)
+Update Logs (03/07/24):
+- Reverted to old roblox directory finder
+- Displays what directory is chosen in RCO
 
 FFlags (02/26/24):
 - Potato Graphics:
