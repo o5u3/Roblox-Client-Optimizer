@@ -22,7 +22,6 @@
   "FFlagNewLightAttenuation": true,
   "FIntRenderShadowIntensity": 0,
   "FFlagDisablePostFx": true,
-  "DFFlagDebugPauseVoxelizer": true,
   "FIntRenderShadowIntensity": 0,
   "FFlagDebugRenderEnableUgcTintMask": false,
   "FFlagDontRenderBillboardGuisThatAreOffscreen": true,
