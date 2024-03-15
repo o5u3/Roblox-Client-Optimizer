@@ -2,6 +2,8 @@ Update Logs (03/07/24):
 - Reverted to old roblox directory finder
 - Displays what directory is chosen in RCO
 
-FFlags (02/26/24):
+FFlags (03/15/24):
 - Potato Graphics:
-    - Fixed no textures not working (again)
+    - Fixed lighting issues (everything being dark)
+- Balanced Graphics
+    - Fixed lighting issues (everything being dark)
