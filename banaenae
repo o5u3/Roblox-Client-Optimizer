@@ -1,6 +1,6 @@
-Update Logs (03/07/24):
-- Reverted to old roblox directory finder
-- Displays what directory is chosen in RCO
+Update Logs (04/08/24):
+- Temporarily disabled Font Changer (refer to #font-changer)
+- Updated Custom FFlag Option (you can now select it through file explorer)
 
 FFlags (03/15/24):
 - Potato Graphics:
