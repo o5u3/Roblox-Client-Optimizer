@@ -190,7 +190,7 @@
       "FStringImmersiveAdsUniverseWhitelist": "0",
       "FFlagAddGameInstanceIdToSessionTracking": "False",
       "FFlagTrackPlaceIdForCrashEnabled": "False",
-      "FFlagGameBasicSettingsFramerateCap": "True",
+      "FFlagGameBasicSettingsFramerateCap2": "True",
       "DFIntTaskSchedulerTargetFps": "0",
        "FFlagDebugSkyGray": true
 }
