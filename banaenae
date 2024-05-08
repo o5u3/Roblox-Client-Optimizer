@@ -1,6 +1,7 @@
-Update Logs (04/08/24):
-- Temporarily disabled Font Changer (refer to #font-changer)
-- Updated Custom FFlag Option (you can now select it through file explorer)
+Update Logs (05/08/24):
++ Slight Design Revamp
+- Removed Font Changer (will return in an up-coming project, refer to #font-changer)
++ Updated 'Open Roblox Directory' (it now opens the ClientSettings folder)
 
 FFlags (03/15/24):
 - Potato Graphics:
