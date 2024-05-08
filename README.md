@@ -11,7 +11,6 @@
     - Backup FFlags
     - Import ClientSettings ``.json`` File
     - Bloxstrap Support
-    - Roblox Client Font Changer
 
 ### RCO's Popular Features:
 - Built-in FPS Unlocker
