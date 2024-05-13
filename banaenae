@@ -3,8 +3,8 @@ Update Logs (05/08/24):
 - Removed Font Changer (will return in an up-coming project, refer to #font-changer)
 + Updated 'Open Roblox Directory' (it now opens the ClientSettings folder)
 
-FFlags (03/15/24):
-- Potato Graphics:
-    - Fixed lighting issues (everything being dark)
-- Balanced Graphics
-    - Fixed lighting issues (everything being dark)
+FFlags (05/13/24):
+- Potato & Balanced Graphics:
+    - Removed unnecessary/patched FFlags
+- Balanced Graphics:
+    + Fixed mesh problems
