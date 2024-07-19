@@ -166,8 +166,7 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
 {
   "FIntRenderGrassDetailStrands": "0",
   "FIntFRMMinGrassDistance": "0",
-  "FIntFRMMaxGrassDistance": "0",
-  "FIntRenderGrassHeightScaler": "0"
+  "FIntFRMMaxGrassDistance": "0"
 }
 ```
 
