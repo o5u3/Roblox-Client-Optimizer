@@ -38,7 +38,7 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
 }
 ```
 
-### "Da Hood" Preset (w/o Vulkan)
+### Main Preset (w/o Vulkan)
 ```json
 {
   "FLogNetwork": "7",
@@ -61,8 +61,8 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
 }
 ```
 
-### "Da Hood" Preset (w/ Vulkan)
-###### NOTE: THIS MAY BE BUGGY
+### Main Preset (w/ Vulkan)
+###### NOTE: THIS MAY BE BUGGY (SUCH AS GAME CRASHES)
 ```json
 {
   "FLogNetwork": "7",
