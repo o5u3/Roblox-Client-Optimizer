@@ -53,7 +53,6 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
   "FIntDebugForceMSAASamples": "1",
   "FFlagDisablePostFx": "True",
   "FIntTerrainArraySliceSize": "0",
-  "FFlagDebugGraphicsPreferVulkan": "True",
   "FFlagDebugGraphicsPreferD3D11": "True",
   "DFFlagDebugPauseVoxelizer": "True",
   "FIntRenderShadowIntensity": "0",
