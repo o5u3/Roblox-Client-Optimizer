@@ -62,7 +62,10 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
 ```
 
 ### Main Preset (w/ Vulkan)
-###### NOTE: THIS MAY BE BUGGY (SUCH AS GAME CRASHES)
+> [!CAUTION]
+> **This MAY crash your game, if that's the case use the preset above (without Vulkan).**
+> 
+> This also won't let you use `Alt + Enter`, use `F11` instead.
 ```json
 {
   "FLogNetwork": "7",
@@ -102,7 +105,8 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
 <h1 align="center">Rendering APIs</h1>
 
 ### Vulkan
-###### NOTE: THIS MAY CRASH YOUR GAME
+> [!CAUTION]
+> **This MAY crash your game, but this is the best API for performance.**
 ```json
 {
   "FFlagDebugGraphicsPreferVulkan": "True",
