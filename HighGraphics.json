@@ -1,0 +1,15 @@
+{
+  "FStringFFlagVersion": "RCO v1.00 | High Graphics",
+  "FLogNetwork": "7",
+  "FFlagFixGraphicsQuality": "True",
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+  "FIntRenderShadowIntensity": "0",
+  "DFFlagDisableDPIScale": "True",
+  "DFIntTaskSchedulerTargetFps": "5588562",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "FFlagGameBasicSettingsFramerateCap5": "False",
+  "FIntDebugForceMSAASamples": "1",
+  "FFlagDisablePostFx": "True",
+  "DFFlagDebugSkipMeshVoxelizer": "True"
+}
