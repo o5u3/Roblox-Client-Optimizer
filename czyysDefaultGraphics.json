@@ -1,0 +1,22 @@
+{
+  "DFIntTaskSchedulerTargetFps": "360",
+  "DFIntDebugFRMQualityLevelOverride": "1",
+  "DFFlagDisableDPIScale": "True",
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+  "FFlagAlwaysShowVRToggleV3": "False",
+  "FFlagAdServiceEnabled": "False",
+  "FFlagDisableFeedbackSoothsayerCheck": "False",
+  "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0",
+  "FFlagChatTranslationSettingEnabled3": "False",
+  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "FFlagGameBasicSettingsFramerateCap5": "False",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "FFlagFixGraphicsQuality": "True",
+  "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+  "FFlagDebugDisableTelemetryEphemeralStat": "True",
+  "FFlagDebugDisableTelemetryEventIngest": "True",
+  "FFlagDebugDisableTelemetryPoint": "True",
+  "FFlagDebugDisableTelemetryV2Counter": "True",
+  "FFlagDebugDisableTelemetryV2Event": "True",
+  "FFlagDebugDisableTelemetryV2Stat": "True"
+}
