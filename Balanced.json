@@ -3,7 +3,6 @@
   "FLogNetwork": "7",
   "FFlagFixGraphicsQuality": "True",
   "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
-  "FIntRenderShadowIntensity": "0",
   "DFFlagDisableDPIScale": "True",
   "DFIntTaskSchedulerTargetFps": "5588562",
   "FFlagHandleAltEnterFullscreenManually": "False",
@@ -12,9 +11,6 @@
   "FIntDebugForceMSAASamples": "1",
   "FFlagDisablePostFx": "True",
   "FIntTerrainArraySliceSize": "4",
-  "DFFlagDebugPauseVoxelizer": "True",
   "FIntRenderShadowIntensity": "0",
-  "DFFlagDebugSkipMeshVoxelizer": "True",
-  "FFlagDebugSkyGray": "True",
-  "FFlagRenderFixFog": "True"
+  "DFFlagDebugSkipMeshVoxelizer": "True"
 }
