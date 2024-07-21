@@ -1,10 +1,11 @@
-Update Logs (05/08/24):
-+ Slight Design Revamp
-- Removed Font Changer (will return in an up-coming project, refer to #font-changer)
-+ Updated 'Open Roblox Directory' (it now opens the ClientSettings folder)
+Update Logs (07/20/24):
++ Added Export `.json`
++ Added Community Presets page
++ Improved update to latest fflags
++ Open Roblox Directory option hidden (use `folder`)
++ Fixed auto-update
++ Fixed bugs (maybe)
 
-FFlags (05/13/24):
-- Potato & Balanced Graphics:
-    - Removed unnecessary/patched FFlags
-- Balanced Graphics:
-    + Fixed mesh problems
+FFlags (07/20/24):
++ Updated Optimization FFlags
++ Added Optimized High Graphics
