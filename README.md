@@ -5,7 +5,7 @@ This Github involves fast flags that help with performance, and delay (such as p
 
 If there are fast flags that do not work, feel free to @ me on [Discord](https://discord.gg/CZUfHYHtZr).
 
-Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
+Brought to you by Roblox Client Optimizer • Last Updated: `07/22/24`
 </h3>
 
 > [!CAUTION]
@@ -13,7 +13,7 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
 
 
 #### Update Logs:
-* `Released`
+* `Added more rendering apis (OpenGL & Direct3D 10`
 
 <h1 align="center">Community Presets</h1>
 
@@ -120,6 +120,22 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
 }
 ```
 
+### Direct3D 10
+
+```json
+{
+  "FFlagDebugGraphicsPreferD3D11FL10": "True"
+}
+```
+### OpenGL
+
+```json
+{
+  "FFlagDebugGraphicsPreferOpenGL": "True",
+  "FFlagDebugGraphicsDisableDirect3D11": "True"
+}
+```
+
 <h1 align="center">Graphics</h1>
 
 ### Gray Sky
@@ -175,7 +191,7 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/18/24`
 ### Low Quality Terrain
 ```json
 {
-  "FIntTerrainArraySliceSize": "4"
+  "FIntTerrainArraySliceSize": "0"
 }
 ```
 
