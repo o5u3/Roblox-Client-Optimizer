@@ -14,6 +14,7 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/22/24`
 
 #### Update Logs:
 * `Added more rendering apis (OpenGL & Direct3D 10`
+* `Updated Main Preset w/o Vulkan (Uses Direct3D 10)`
 
 <h1 align="center">Community Presets</h1>
 
@@ -51,6 +52,7 @@ Brought to you by Roblox Client Optimizer • Last Updated: `07/22/24`
   "FFlagGameBasicSettingsFramerateCap5": "False",
   "FIntDebugForceMSAASamples": "1",
   "FFlagDisablePostFx": "True",
+  "FFlagDebugGraphicsPreferD3D11FL10": "True",
   "FIntTerrainArraySliceSize": "0",
   "DFFlagDebugPauseVoxelizer": "True",
   "FIntRenderShadowIntensity": "0",
