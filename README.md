@@ -12,14 +12,14 @@
     - Import ClientSettings ``.json`` File
     - Bloxstrap Support
 
+## Want to make your own performace presets?
+**[Click here to be redirected for our presets and performance FFlags.](https://github.com/o5u3/Roblox-Client-Optimizer/tree/performance-fflags)**
+
 ### RCO's Popular Features:
 - Built-in FPS Unlocker
-- Optimizes Memory
-- Optimizes Ping
 - Optimizes Graphics
 - Optimizes Textures
 - Enables FULL Graphics Quality Levels
-- Menu/UI Changes
 - Disables unnecessary FFlags
 - And more!
 
